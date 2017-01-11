@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+body{background:url(math.jpg);}
+.main{max-height: 500px; overflow: auto; width: 65%; float: left;}
+.recent{overflow: auto; max-height:500px; width: 35%; float: left;}
+.val-input{padding:8px;border:none;border-bottom:1px solid #808080;width:45%;}
+.dtr-input{padding:5px;width:40px;}
+.page{display: none;}
+#show{display: block;}
+.content{width:65%;max-height:500px;overflow: auto; float: left;}
+/*Registration Page*/
+.reg{margin:0 20% 0 20%;}
+.color{background-color:#292c2f;}
+/* Contact Form */
+.contact{width: 45%;padding: 2%;float: left;}
+.about{margin:0 20% 117px 20%;}
+
+/**/
+
+/* Responsive Design */
+@media(max-width:768px){
+	.main{width:100%;}
+	.content{width:100%;}
+	.recent{display:none;}
+	.side-page{margin-left:0;}
+	.about{margin:0 10% 0 10%;}
+}
+@media(max-width:601px){
+    .reg{margin:0;}
+    .contact{width:100%;}
+    .about{margin:0;}
+}
+@media(max-width:480px){
+
+	}
+}
+@media(max-width:320px){
+
+	}
+}
